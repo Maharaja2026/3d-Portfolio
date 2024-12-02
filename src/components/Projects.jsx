@@ -8,34 +8,34 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "Portfolio-1",
-    url: "https://sudeep-acharjee.me",
-    image: "projects/wawatmos.jpg",
-    description: "Made a dummy portfolio that didn't work out",
+    title: "Travel Agency",
+    url: "",
+    image: "projects/eight.svg",
+    description: "This project about travel agency management",
   },
   {
-    title: "Portfolio Baking",
-    url: "https://sudeep-acharjee.me",
-    image: "projects/baking.jpg",
-    description: "Made a portfolio that was a bit better but still not good",
+    title: "Billing Software",
+    url: "",
+    image: "projects/seven.svg",
+    description: "It can print receipts for bills, manage products, and provide an overview of expenses and sales reports.",
   },
   {
-    title: "3D Avatar",
-    url: "https://sudeep-acharjee.me",
-    image: "projects/avatar.jpg",
-    description: "Create another with react.js but still not good enough",
+    title: "Patient tracking",
+    url: "",
+    image: "projects/four.svg",
+    description: "This project involves the development of an Android application for viewing and managing patient data.",
   },
   {
-    title: "Kanagame",
-    url: "https://sudeep-acharjee.me",
-    image: "projects/kanagame.jpg",
+    title: "Portfolio-Nextjs",
+    url: "",
+    image: "projects/portfolio.png",
     description: "Made a Professional Portfolio with React.js and TailwindCSS",
   },
   {
-    title: "Loader",
-    url: "https://sudeep-acharjee.me",
-    image: "projects/loader.jpg",
-    description: "This a profile card that I made with Vanilla CSS",
+    title: "E-commerce",
+    url: "",
+    image: "projects/five.svg",
+    description: "This a E-commerce management system that I made with JDBC",
   },
 ];
 
@@ -57,7 +57,7 @@ const Project = (props) => {
     <group {...props}>
       <mesh
         position-z={-0.001}
-        onClick={() => window.open(project.url, "_blank")}
+        // onClick={() => window.open(project.url, "_blank")}
         ref={background}
       >
         <planeGeometry args={[2.2, 2]} />

@@ -49,7 +49,7 @@ const AboutSection = (props) => {
       <h1 className="text-6xl font-extrabold leading-snug">
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Sudeep Acharjee</span>
+        <span className="bg-white px-1 italic">Maharaja</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -94,24 +94,28 @@ const AboutSection = (props) => {
 
 const skills = [
   {
-    title: "Threejs / React Three Fiber",
-    level: 50,
+    title: "Java",
+    level: 80,
   },
   {
-    title: "MERN Stack",
+    title: "SQL",
     level: 90,
   },
   {
-    title: "Nextjs",
-    level: 50,
-  },
-  {
-    title: "Typescript",
+    title: "React & Nextjs",
     level: 60,
   },
   {
+    title: "Javascript",
+    level: 70,
+  },
+  {
     title: "Python",
-    level: 40,
+    level: 60,
+  },
+  {
+    title: "Three.js",
+    level: 30,
   },
 ];
 
